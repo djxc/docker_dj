@@ -1,0 +1,4 @@
+1、docker 创建使用docker run --name，可以命名容器
+2、查看所有的容器，docker ps (-a)如果不加-a则显示正在运行中的容器，-a则是所有的容器包括停止的
+3、重新启动一个容器：docker start --name;在start后加上-a则会进入之前的参数容器
+4、通过Dockerfile创建镜像：docker build -t="djxc/myweb_app:v1"
